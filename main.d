@@ -12,9 +12,9 @@ void main()
 
 string sendpack(string message){
 
-	string corp_id = "wwc27f8c25bf0b362a"; // Your corp_id
-	string app_secret = "T2-GWs9vxvgA2TttdTE27-Fm1CDQ8YDubGLu93qAqcU"; // Your app_secret
-	string app_id = "1000004"; // Your app_id
+	string corp_id = ""; // Your corp_id
+	string app_secret = ""; // Your app_secret
+	string app_id = ""; // Your app_id
     // Let's get going!
 	
 	string qxgeturl = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" ~ corp_id ~ "&corpsecret=" ~ app_secret;
